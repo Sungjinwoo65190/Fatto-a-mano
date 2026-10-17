@@ -1,27 +1,96 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #F5F5F5;
+}
+
 header img{
     width: 150px;
     height: auto;
 }
 
+header, .nosso-cardapio, .nossa-historia{
+    padding: 5px 30px;
+}
+
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.hero{
-    width: 100%;
-    height: 10vh;
+    justify-content: flex-start;
     background-image: url(img/madeira.png);
     background-position: center;
     background-size: cover;
-    padding: 0px 20px 0px 20px;
+}
+
+header nav{
+    display: flex;
+    gap: 32px;
+    margin-left: 40vh;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
 }
 .logo-nav{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.cardapio-pratos{
+    display: flex;
+    align-items: center;
+}
+
+.home img{
+    width: 100%;
+    height: 90vh;
+}
+
+.nosso-cardapio h1{
+    font-family: 'Italiana';
+    font-size: 62px;
+    color: #A60C0C;
+}
+
+.cardapio-botoes button{
+    font-size: 1.5rem;
+}
+
+.btn-tudo{
+    background-color: #A3CA8E;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+.btn-secundario{
+    background-color: #A1BE9C;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+}
+
+.cardapio-pratos{
+    margin-top: 18px;
+    font-family: 'Meie Script';
+    font-size: 40px;
+}
+
+.cardapio-pratos .caixa{
+    text-align: center;
+}
+
+.caixa img{
+    width: 326px;
 }
