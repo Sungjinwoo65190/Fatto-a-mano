@@ -150,7 +150,7 @@ header nav a{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: flex-end;
     padding-right: 100px;
 }
