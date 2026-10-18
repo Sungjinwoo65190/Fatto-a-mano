@@ -47,14 +47,21 @@ header nav a{
     gap: 10px;
 }
 
-.cardapio-pratos{
+.home{
+    height: 90vh;
+
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+
+    background-image: url(img/junto-da-logo.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .home img{
-    width: 100%;
-    height: 90vh;
+    width: 400px;
+    height: auto;
 }
 
 .nosso-cardapio h1{
@@ -68,6 +75,7 @@ header nav a{
 }
 
 .btn-tudo{
+    font-family: 'Italiana';
     background-color: #A3CA8E;
     color: white;
     padding: 5px 20px;
@@ -75,10 +83,18 @@ header nav a{
 }
 
 .btn-secundario{
+    font-family: 'Italiana';
     background-color: #A1BE9C;
     color: white;
     padding: 6px 20px;
     border: none;
+}
+
+.cardapio-pratos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .cardapio-pratos{
@@ -92,5 +108,71 @@ header nav a{
 }
 
 .caixa img{
-    width: 326px;
+    width: 250px;
 }
+
+.caixa p{
+    text-align:right;
+}
+
+.nossa-historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 0px 0px;
+}
+
+.nossa-historia h1{
+    font-size: 60px;
+    font-family: 'Italiana';
+    color: #A60C0C;
+}
+
+.nossa-historia h4{
+    font-family: 'italiana';
+}
+
+.nossa-historia p{
+    font-family: 'italiana';
+    font-size: 20px;
+}
+
+.historia-direita img{
+    width: 550px;
+    transform: translateY(45px); /*abaixa a imagem*/
+}
+
+.horarios{
+    min-height: 700px; /*aumentou o tamanho da pagina*/
+    margin-top: 50px; /*desceu a seçao inteira*/
+    background-image: url(img/foto-final.jpeg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.horarios h1{
+    font-family: 'Italiana';
+    font-size: 70px;
+    font-weight: normal;
+    color: #A60C0C;
+}
+
+.horarios p{
+    font-family: 'Italiana';
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
