@@ -186,11 +186,11 @@ header nav a{
 
 .horarios-botao button{
     width: 350px;
-    height: 5vh;
+    height: 7vh;
     display: flex;
     justify-content: center;
     background-color: #2E4E1A;
-    padding: 3px;
+    padding: 7px;
     font-size: 28px;
     font-family: 'Italiana';
     color: white;
@@ -198,11 +198,10 @@ header nav a{
 }
 
 .horarios-botao{
-    padding-right: 30px;
+    padding-right: 0px;
     margin-top: 20px;
     text-align: center;
     justify-content: center;
-
 }
 
 footer{
