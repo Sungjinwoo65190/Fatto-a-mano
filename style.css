@@ -150,9 +150,11 @@ header nav a{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center; 
-    justify-content: flex-end;
+    flex-direction:column; /*deixa um embaixo do outro*/
+    align-items: flex-end;
+    justify-content: center;
     padding-right: 100px;
+    padding: 50px;
 }
 
 .horarios h1{
@@ -166,7 +168,71 @@ header nav a{
     font-family: 'Italiana';
     font-size: 15px;
     color: white;
+    margin-top: 20px;
+    font-size: 20px;
 }
+
+.horarios h4{
+    color: #93FF97;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Luxurious Script';
+}
+
+.horarios-txt{
+    text-align: center;
+}
+
+.horarios-botao button{
+    width: 350px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    background-color: #2E4E1A;
+    padding: 3px;
+    font-size: 28px;
+    font-family: 'Italiana';
+    color: white;
+    border: none;
+}
+
+.horarios-botao{
+    padding-right: 30px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+footer{
+    background-image: url(img/madeira.png);  
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 10px;
+}
+
+.logo-footer img{
+    width: 200px;
+}
+
+footer h1{
+    font-family: 'Italiana';
+    color: #A60C0C;
+    font-weight: normal;
+}
+
+footer p{
+    font-family: 'Italiana';
+    color: white;
+    margin-top: 10px;
+}
+
+footer h1 p{
+    align-items: center;
+}
+
 
 
 
